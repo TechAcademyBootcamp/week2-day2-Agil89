@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">Carousel</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,14 +47,16 @@
                     preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
                     <rect width="100%" height="100%" fill="#777"></rect>
                 </svg>
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption text-center d-none d-md-block">
                     <span class="align-middle">
-                    <h1 class="text-center">Another example headline.</h1>
-                    <h5 class="text-center">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</h5>
-                    <button type="button" class="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false">
-                        Single toggle
-                    </button>
+                    <h1>Another example headline.</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>
+                        <button type="button" class="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false">
+                            Single toggle
+                        </button>
+                     </p>
                 </span>
                 </div>
             </div>
@@ -63,15 +65,16 @@
                     preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
                     <rect width="100%" height="100%" fill="#777"></rect>
                 </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="text-left">Example headline.</h1>
-                    <h5 class="text-xl-left">Cras justo odio, dapibus ac
+                <div class="carousel-caption text-left d-none d-md-block">
+                    <h1>Example headline.</h1>
+                    <p >Cras justo odio, dapibus ac
                         facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</h5>
-                        <div class="text-left">
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p>
                     <button type="button" class="btn btn-primary text-left btn-lg" data-toggle="button" aria-pressed="false">
                         Single toggle
                     </button>
+                    </p>
                 </div>
                 </div>
             </div>
@@ -82,13 +85,13 @@
                 </svg>
                 <div class="carousel-caption d-none d-md-block">
                     <h1 class="text-right">One more for good measure.</h1>
-                    <h5 class="text-right">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
-                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</h5>
-                        <div class="text-right">
+                    <p class="text-right">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p class="text-right">
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="button" aria-pressed="false">
                             Browse gallery
                         </button>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>
@@ -101,6 +104,81 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <section class="circles d-flex justify-content-around h-100 d-inline-block">
+        <div class="d-flex flex-column align-items-center">
+            <div class="first-circle">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                    aria-label="Placeholder: 140x140">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+            </div>
+            <div class="Heading">
+                <h1>Heading</h1>
+            </div>
+            <div>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false">
+                    Browse gallery
+                </button>
+            </div>
+        </div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <div class="first-circle">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                    aria-label="Placeholder: 140x140">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+            </div>
+            <div class="Heading">
+                <h1>Heading</h1>
+            </div>
+            <div>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false">
+                    Browse gallery
+                </button>
+            </div>
+        </div>
+        <div class="d-flex flex-column align-items-center">
+            <div class="first-circle">
+                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
+                    xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+                    aria-label="Placeholder: 140x140">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777"
+                        dy=".3em">140x140</text>
+                </svg>
+            </div>
+            <div class="Heading">
+                <h1>Heading</h1>
+            </div>
+            <div>
+                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies
+                    vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo
+                    cursus magna.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-secondary btn-lg" data-toggle="button" aria-pressed="false">
+                    Browse gallery
+                </button>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
